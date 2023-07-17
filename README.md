@@ -26,3 +26,11 @@ Feel free to contribute to this project. Just create a pull request and check if
 ## Author
 - [Tim Gatzke](development.tim-gatzke.de)
 
+## Changelog
+### 1.0.0
+- Initial Release
+
+## Roadmap
+- Create a Basic Plugin Structure
+- Basic Plugin Configuration
+- Plugin Controller
