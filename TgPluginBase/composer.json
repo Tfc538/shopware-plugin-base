@@ -1,0 +1,37 @@
+{
+    "name": "tg/plugin-base",
+    "description": "Plugin Base for Shopware 6",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Gatzke",
+            "email": "post@tim-gatzke.de",
+            "homepage": "https://tim-gatzke.de"
+        }
+    ],
+
+    "require": {
+        "shopware/core": "6.5.*"
+    },
+
+    "extra": {
+        "shopware-plugin-class": "TgPluginBase\\TgPluginBase",
+        "label": {
+            "de-DE": "Plugin Base von Tim Gatzke",
+            "en-GB": "Plugin Base by Tim Gatzke"
+        },
+
+        "description": {
+            "de-DE": "Dieses Plugin dient als Basis zum programmieren von Plugins.",
+            "en-GB": "This plugin is a base for plugin development."
+        }
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Tg\\PluginBase\\": "src/"
+        }
+    }
+}
